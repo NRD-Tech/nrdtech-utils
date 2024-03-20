@@ -53,3 +53,6 @@ terraform/remote_backend.tf
 
 # Sqlite
 *.db
+
+# pytest-cof
+.coverage
