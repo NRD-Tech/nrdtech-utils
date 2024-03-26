@@ -1,4 +1,5 @@
 #!/bin/bash
 
-echo "export PYTHONPATH=$PYTHONPATH:src" >> ~/.bashrc
-pip3 install --user -r requirements.txt
+git config core.fileMode false
+pip install --upgrade pip
+pip install -r requirements.txt

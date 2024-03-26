@@ -1,7 +1,4 @@
 {
-    "cSpell.words": [
-        "nrdtech"
-    ],
     "python.testing.pytestArgs": [
         "tests"
     ],
@@ -10,5 +7,7 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true
-      }
+    },
+    "files.eol": "\n",
+    "python.analysis.typeCheckingMode": "basic"
 }
